@@ -1,0 +1,13 @@
+.input-container {
+  width: 70%;
+}
+input {
+  box-sizing: border-box;
+  padding: 10px 25px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: medium;
+  margin: 10px;
+  outline: none;
+}

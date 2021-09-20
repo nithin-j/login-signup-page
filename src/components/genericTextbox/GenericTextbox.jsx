@@ -1,10 +1,12 @@
 import React from 'react';
+import './GenericTextbox.css';
 
 const GenericTextbox = ({ placeholderText }) => {
   return (
     <div className='input-container'>
       <input
-        type='text'
+        class='generic-input'
+        type={placeholderText.includes('Password') ? 'password' : 'text'}
         name=''
         className='input-textbox'
         placeholder={placeholderText}
